@@ -1,0 +1,18 @@
+Tâche 1 :  SELECT * FROM invites; 
+
+
+Tâche 2 : SELECT nom ,statut FROM invites;
+
+
+Tâche 3 : SELECT COUNT(*) AS total_invites FROM invites;
+
+
+Tâche 4 :  SELECT COUNT(*) AS total_invites FROM invites WHERE statut = 'Suspect';
+
+
+Tâche 5 :  SELECT * FROM mouvements ORDER BY time ASC LIMIT 1;
+
+
+Tâche 6 : SELECT * FROM mouvements ORDER BY time DESC LIMIT 1;
+
+
